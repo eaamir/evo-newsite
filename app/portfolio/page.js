@@ -347,12 +347,8 @@ export default function Portfolio() {
             </span>
           </h1>
           <p className=" text-[18px] lg:w-[75%] text-justify ">
-            Focus and routine application, with in-app payment It is implemented
-            in two versions, free and premium. Different accesses are defined
-            for different user roles in the app, according to the user role, the
-            access to the app features is different. The application is built on
-            React Native platform. (such as the powerful applications of
-            Spotify, Pinterest, etc.)
+            Designing and implementing a dashboard panel to manage different
+            parts of the website and application
           </p>
         </div>
 
