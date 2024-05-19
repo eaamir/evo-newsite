@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import SectionOne from "./components/Section01";
 import SectionTwo from "./components/Section02";
 import SectionThree from "./components/Section03";
-import Image from "next/image";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -85,7 +84,7 @@ export default function Home() {
 
   const divdiv = useRef();
 
-  const timeline = gsap.timeline();
+  // const timeline = gsap.timeline();
 
   useGSAP(
     () => {

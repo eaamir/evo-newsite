@@ -112,22 +112,22 @@ export default function Header() {
       </div>
       <div ref={studio} className="flex flex-col justify-center relative">
         <Image
-          className="lg:w-[135px] w-[115px] "
+          className=" w-[115px] "
           src="/logo.png"
           width={500}
           height={500}
           alt="evo-Logo"
         />
-        <span className=" st01 absolute right-0 bottom-[25%] uppercase lg:text-[13px] text-[11px] font-bold bg-pink-500 px-[4px] opacity-0 rounded-sm ">
+        <span className=" st01 absolute right-0 bottom-[25%] uppercase text-[11px] font-bold bg-pink-500 px-[4px] opacity-0 rounded-sm ">
           studio
         </span>
-        <span className=" st02 absolute right-0 bottom-[25%] uppercase lg:text-[13px] text-[11px] text-black font-bold bg-yellow-400 px-[4px] opacity-0 rounded-sm ">
+        <span className=" st02 absolute right-0 bottom-[25%] uppercase text-[11px] text-black font-bold bg-yellow-400 px-[4px] opacity-0 rounded-sm ">
           studio
         </span>
-        <span className=" st03 absolute right-0 bottom-[25%] uppercase lg:text-[13px] text-[11px] font-bold bg-blue-400 px-[4px] opacity-0 rounded-sm ">
+        <span className=" st03 absolute right-0 bottom-[25%] uppercase text-[11px] font-bold bg-blue-400 px-[4px] opacity-0 rounded-sm ">
           studio
         </span>
-        <span className=" st04 absolute right-0 bottom-[25%] uppercase lg:text-[13px] text-[11px] font-bold text-black bg-orange-400 px-[4px] opacity-0 rounded-sm ">
+        <span className=" st04 absolute right-0 bottom-[25%] uppercase text-[11px] font-bold text-black bg-orange-400 px-[4px] opacity-0 rounded-sm ">
           studio
         </span>
       </div>

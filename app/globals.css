@@ -38,7 +38,7 @@
 }
 
 body {
-  cursor: url("../public/cursor-sm.png"), auto;
+  cursor: url("../public/cursor.png"), auto;
   scroll-behavior: smooth;
   overflow-x: hidden;
   color: rgb(var(--foreground-rgb));

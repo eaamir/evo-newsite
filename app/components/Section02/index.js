@@ -19,7 +19,7 @@ export default function SectionTwo() {
       gsap.to(".panel", {
         scrollTrigger: {
           trigger: ".containers",
-          start: "top +=300",
+          start: "top +=250",
           end: "bottom center",
           scrub: 1,
           markers: false,
@@ -89,7 +89,7 @@ export default function SectionTwo() {
 
   return (
     <div ref={mainTwo}>
-      <div className=" lg:flex flex-row justify-center py-[250px] hidden z-0 overflow-hidden ">
+      <div className=" lg:flex flex-row justify-center py-[150px] hidden z-0 overflow-hidden ">
         <div className=" containers w-full h-[100vh] ">
           <div className=" panel px-[50px] relative w-full ">
             <span className=" sqr top-0 left-[50%] absolute ">
@@ -134,7 +134,7 @@ export default function SectionTwo() {
                 </defs>
               </svg>
             </span>
-            <span className=" golpink absolute z-0 ">
+            <span className=" golpink absolute z-0 top-[75%] ">
               <svg
                 width="248"
                 height="248"
@@ -205,7 +205,7 @@ export default function SectionTwo() {
                 </defs>
               </svg>
             </span>
-            <span className=" flex gap-[21px] text-[100px] font-bold text-nowrap z-10 ">
+            <span className=" flex gap-[17px] text-[90px] font-bold text-nowrap z-10 ">
               <span className=" flex ">
                 <p className=" txt ">Y</p>
                 <p className=" txt ">o</p>

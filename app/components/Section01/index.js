@@ -112,63 +112,13 @@ export default function SectionOne() {
   ); // <-- scope for selector text (optional
 
   return (
-    <div ref={mainheading} className=" flex flex-col justify-center relative">
-      <span className=" rot01 absolute top-0 right-[5%] lg:right-[25%]  ">
+    <div
+      ref={mainheading}
+      className=" flex flex-col justify-center relative md:px-[75px] lg:px-[0px] "
+    >
+      <span className=" rot01 absolute left-[25%] top-[25%] lg:top-[40%] ">
         <svg
-          className=" lg:w-[75px] w-[50px] lg:h-[75px] h-[50px] "
-          width="124"
-          height="124"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 124 124"
-          aria-hidden="true"
-        >
-          <path
-            fill="#fff"
-            fill-rule="evenodd"
-            d="m43.184 54.206-35.557.137a7.656 7.656 0 0 0 0 15.313l35.557.138-25.045 25.24a7.657 7.657 0 0 0 10.828 10.827l25.24-25.045.136 35.557a7.657 7.657 0 0 0 15.313 0l.138-35.557 25.24 25.045a7.656 7.656 0 0 0 10.827-10.828l-25.045-25.24 35.557-.137a7.657 7.657 0 0 0 0-15.313l-35.557-.137 25.045-25.24a7.657 7.657 0 0 0-10.828-10.828l-25.24 25.046-.137-35.557a7.657 7.657 0 0 0-15.313 0l-.137 35.557-25.24-25.045a7.657 7.657 0 0 0-10.828 10.828l25.046 25.24Z"
-            clip-rule="evenodd"
-          ></path>
-          <path
-            fill="url(#paint0_radial_2080_57111)"
-            fill-rule="evenodd"
-            d="m43.184 54.206-35.557.137a7.656 7.656 0 0 0 0 15.313l35.557.138-25.045 25.24a7.657 7.657 0 0 0 10.828 10.827l25.24-25.045.136 35.557a7.657 7.657 0 0 0 15.313 0l.138-35.557 25.24 25.045a7.656 7.656 0 0 0 10.827-10.828l-25.045-25.24 35.557-.137a7.657 7.657 0 0 0 0-15.313l-35.557-.137 25.045-25.24a7.657 7.657 0 0 0-10.828-10.828l-25.24 25.046-.137-35.557a7.657 7.657 0 0 0-15.313 0l-.137 35.557-25.24-25.045a7.657 7.657 0 0 0-10.828 10.828l25.046 25.24Z"
-            clip-rule="evenodd"
-          ></path>
-          <path
-            fill="url(#pattern-home-animate-asterisk-0)"
-            fill-rule="evenodd"
-            d="m43.184 54.206-35.557.137a7.656 7.656 0 0 0 0 15.313l35.557.138-25.045 25.24a7.657 7.657 0 0 0 10.828 10.827l25.24-25.045.136 35.557a7.657 7.657 0 0 0 15.313 0l.138-35.557 25.24 25.045a7.656 7.656 0 0 0 10.827-10.828l-25.045-25.24 35.557-.137a7.657 7.657 0 0 0 0-15.313l-35.557-.137 25.045-25.24a7.657 7.657 0 0 0-10.828-10.828l-25.24 25.046-.137-35.557a7.657 7.657 0 0 0-15.313 0l-.137 35.557-25.24-25.045a7.657 7.657 0 0 0-10.828 10.828l25.046 25.24Z"
-            clip-rule="evenodd"
-          ></path>
-          <defs>
-            <radialGradient
-              id="paint0_radial_2080_57111"
-              cx="0"
-              cy="0"
-              r="1"
-              gradientTransform="rotate(-90 63.541 25.385) scale(97.6761)"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stop-color="#8324ff"></stop>
-              <stop offset=".672" stop-color="#eda745"></stop>
-              <stop offset="1" stop-color="#FF9983"></stop>
-              <stop offset=".901" stop-color="#343deb"></stop>
-            </radialGradient>
-            <pattern
-              id="pattern-home-animate-asterisk-0"
-              width=".806"
-              height=".806"
-              patternContentUnits="objectBoundingBox"
-            >
-              <use transform="scale(.00161)"></use>
-            </pattern>
-          </defs>
-        </svg>
-      </span>
-      <span className=" rot01 absolute left-[20%] top-[25%] lg:top-[40%] ">
-        <svg
-          className=" lg:w-[100px] w-[45px] lg:h-[100px] h-[45px] "
+          className=" lg:w-[65px] w-[45px] lg:h-[75px] h-[45px] "
           width="124"
           height="124"
           xmlns="http://www.w3.org/2000/svg"
@@ -219,12 +169,12 @@ export default function SectionOne() {
           </defs>
         </svg>
       </span>
-      <div className=" flex flex-row justify-start lg:mt-[50px] mt-[25px] lg:ml-[75px] ml-[25px] ">
-        <div className=" lg:text-[225px] text-[75px] tracking-wide lg:leading-[100px] leading-[50px] flex  font-bold ">
-          <p className="sp01 -rotate-[15deg] ">C</p>
-          <p>r</p>
-          <p>e</p>
-          <p>a</p>
+      <div className=" flex flex-row justify-start lg:mt-[50px] mt-[25px] lg:ml-[75px] ml-[25px]  ">
+        <div className=" lg:text-[200px] text-[75px] tracking-wide lg:leading-[100px] leading-[50px] flex  font-bold ">
+          <p className="sp01 and -rotate-[15deg] ">C</p>
+          <p className=" and ">r</p>
+          <p className=" and ">e</p>
+          <p className=" and ">a</p>
           <p>t</p>
           <p>i</p>
           <p>v</p>
@@ -240,9 +190,9 @@ export default function SectionOne() {
           <p className="and ">d</p>
         </div>
       </div>
-      <div className=" flex flex-col lg:flex-row-reverse justify-around px-[35px] lg:px-[50px] ">
-        <div className=" flex flex-col lg:flex-row justify-end gap-[25px] w-full ">
-          <div className=" lg:text-[225px] text-[75px] tracking-wide lg:leading-[200px] leading-[25px] flex ">
+      <div className=" flex flex-col lg:flex-row-reverse justify-around px-[35px] lg:px-[75px] ">
+        <div className=" flex flex-col lg:flex-row justify-end gap-[50px] w-full ">
+          <div className=" lg:text-[200px] text-[75px] tracking-wide lg:leading-[200px] leading-[25px] flex font-bold ">
             <p className=" dott flex flex-col justify-center items-center align-middle h-fit font-bold lg:-translate-x-[10px] -translate-x-[25px] lg:-translate-y-[25px] -translate-y-[10px] opacity-0 ">
               :
             </p>
@@ -253,7 +203,7 @@ export default function SectionOne() {
             <p>g</p>
             <p>n</p>
           </div>
-          <div className=" font-bold lg:text-[225px] text-[75px] tracking-wide lg:leading-[200px] leading-[100px] flex self-end ">
+          <div className=" font-bold lg:text-[200px] text-[75px] tracking-wide lg:leading-[200px] leading-[100px] flex self-end lg:self-center ">
             <p>S</p>
             <p>t</p>
             <p>u</p>
@@ -270,12 +220,10 @@ export default function SectionOne() {
             });
           }}
           href="#"
-          className=" mt-[25px] cursor-fancy lg:mt-0 bg-orange-700 p-[10px] lg:w-[150px] lg:h-[250px] flex flex-col justify-between rounded-3xl text-black border-[5px] border-orange-700 hover:border-white hover:text-white hover:bg-black transition gap-[25px] lg:gap-0 "
+          className=" mt-[25px] cursor-fancy lg:mt-0 bg-orange-700 p-[10px] lg:w-[175px] lg:h-[250px] flex flex-col justify-between rounded-3xl text-black border-[5px] border-orange-700 hover:border-white hover:text-white hover:bg-black transition gap-[25px] lg:gap-0 "
         >
           <div>
-            <p className="font-bold text-[23px] ">
-              Let's make a design
-            </p>
+            <p className="font-bold text-[23px] ">Let's make a Design</p>
           </div>
           <div className="flex justify-between">
             <p className="font-bold text-[23px]">PLANS</p>
@@ -303,6 +251,7 @@ export default function SectionOne() {
           </div>
         </Link>
       </div>
+      <hr className=" border-gray-400 w-[350px] lg:w-[1000px] mt-[100px] self-center "></hr>
     </div>
   );
 }
