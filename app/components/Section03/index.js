@@ -40,9 +40,9 @@ export default function SectionThree() {
 
       <div
         style={{ visibility: `${isBaz}` }}
-        className=" w-screen h-screen bg-black bg-opacity-90 flex justify-center items-center fixed top-0 z-50"
+        className=" w-screen h-screen bg-blue-300 bg-opacity-95 flex justify-center items-center fixed top-0 z-50"
       >
-        <div className=" bg-black rounded-3xl w-full h-full lg:w-fit lg:h-fit flex flex-col justify-center items-center px-[50px] lg:px-[100px] py-[50px] gap-[25px] relative ">
+        <div className=" rounded-3xl w-fith-fit flex flex-col justify-center items-center px-[50px] lg:px-[100px] py-[50px] gap-[25px] relative ">
           <div className=" absolute right-[35px] top-[35px] lg:right-[20px] lg:top-[20px] hover:scale-[1.1] transition ">
             <Link
               className=" cursor-fancy "
@@ -56,7 +56,7 @@ export default function SectionThree() {
           <div className=" w-[300px] lg:w-[500px] flex justify-between items-center border-b-[3px] border-gray-300 hover:border-red-500 transition px-[15px] lg:px-[35px] py-[25px] gap-[75px] lg:gap-[150px] text-[17px] lg:text-[20px] font-bold uppercase ">
             <p className=" text-white ">whatsapp</p>
             <Link
-              className=" py-[7px] px-[25px] rounded-xl bg-gradient-to-r  from-red-500 to-red-700 hover:from-red-700 hover:to-red-900 transition  "
+              className=" py-[7px] px-[25px] rounded-xl bg-gradient-to-r  from-rose-500 to-rose-300 hover:from-red-700 hover:to-red-900 transition  "
               href="https://wa.me/message/BTYS2T3GCEFFK1"
               target="_blank"
               scroll={false}
@@ -67,7 +67,7 @@ export default function SectionThree() {
           <div className=" w-[300px] lg:w-[500px] flex justify-between items-center border-b-[3px] border-gray-300 hover:border-red-500 transition lg:px-[35px] px-[15px] py-[25px] gap-[75px] lg:gap-[150px] text-[17px] lg:text-[20px] font-bold uppercase ">
             <p className=" text-white ">telegram</p>
             <Link
-              className=" py-[7px] px-[25px] rounded-xl bg-gradient-to-r from-red-500 to-red-700 hover:from-red-700 hover:to-red-900 transition "
+              className=" py-[7px] px-[25px] rounded-xl bg-gradient-to-r from-rose-500 to-rose-300 hover:from-red-700 hover:to-red-900 transition "
               target="_blank"
               href="https://t.me/evostudiio"
               scroll={false}
@@ -78,7 +78,7 @@ export default function SectionThree() {
           <div className=" w-[300px] lg:w-[500px] flex justify-between items-center border-b-[3px] border-gray-300 hover:border-red-500 transition lg:px-[35px] px-[15px] py-[25px] gap-[50px] lg:gap-[100px] text-[17px] lg:text-[20px] font-bold uppercase ">
             <p className=" text-white ">+989051170867</p>
             <Link
-              className=" py-[7px] px-[25px] rounded-xl bg-gradient-to-r from-red-500 to-red-700 hover:from-red-700 hover:to-red-900 transition  "
+              className=" py-[7px] px-[25px] rounded-xl bg-gradient-to-r from-rose-500 to-rose-300 hover:from-red-700 hover:to-red-900 transition  "
               href="tel:+989051170867"
               scroll={false}
             >
@@ -145,12 +145,12 @@ export default function SectionThree() {
             {active ? <span>T 13</span> : <span>$ 199</span>}
             <span className=" text-[17px] font-thin ">/ Contract</span>
           </h1>
-          <p className=" text-[20px] w-[200px] tracking-tighter leading-tight text-gray-400 ">
+          <p className=" text-[20px] w-[200px] tracking-tighter leading-tight text-gray-600 ">
             Simple website design including ready and pre-designed templates.
           </p>
           <hr className=" border-green-300 border-[1px] rounded-full  w-[200px] self-center my-[25px] "></hr>
           <ul className=" flex flex-col gap-[15px] ">
-            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-400 ">
+            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-600 ">
               <span>
                 <svg
                   className=" w-[15px] h-[15px] "
@@ -199,7 +199,7 @@ export default function SectionThree() {
               </span>
               <span className=" capitalize "> Fast and flexible</span>
             </li>
-            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-400 ">
+            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-600 ">
               <span>
                 <svg
                   className=" w-[15px] h-[15px] "
@@ -248,7 +248,7 @@ export default function SectionThree() {
               </span>
               <span className=" capitalize "> Short delivery time</span>
             </li>
-            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-400 ">
+            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-600 ">
               <span>
                 <svg
                   className=" w-[15px] h-[15px] "
@@ -319,12 +319,12 @@ export default function SectionThree() {
             {active ? <span>T 20</span> : <span>$ 399</span>}
             <span className=" text-[17px] font-thin ">/ Contract</span>
           </h1>
-          <p className=" text-[20px] w-[200px] tracking-tighter leading-tight text-gray-400 ">
+          <p className=" text-[20px] w-[200px] tracking-tighter leading-tight text-gray-600 ">
             Including new and start-up businesses with advanced facilities.{" "}
           </p>
           <hr className=" border-pink-300 border-[1px] rounded-full  w-[200px] self-center my-[25px] "></hr>
           <ul className=" flex flex-col gap-[15px] ">
-            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-400 ">
+            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-600 ">
               <span>
                 <svg
                   className=" w-[15px] h-[15px] "
@@ -373,7 +373,7 @@ export default function SectionThree() {
               </span>
               <span className=" capitalize "> fresh and modern UI design</span>
             </li>
-            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-400 ">
+            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-600 ">
               <span>
                 <svg
                   className=" w-[15px] h-[15px] "
@@ -425,7 +425,7 @@ export default function SectionThree() {
                 Implementation with the latest methods and libraries{" "}
               </span>
             </li>
-            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-400 ">
+            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-600 ">
               <span>
                 <svg
                   className=" w-[15px] h-[15px] "
@@ -542,12 +542,12 @@ export default function SectionThree() {
             <span>call to ask</span>
             <span className=" text-[17px] font-thin ">/ Contract</span>
           </h1>
-          <p className=" text-[20px] w-[200px] tracking-tighter leading-tight text-gray-400 ">
+          <p className=" text-[20px] w-[200px] tracking-tighter leading-tight text-gray-600 ">
             For businesses with huge customers and special futures.
           </p>
           <hr className=" border-purple-400 border-[1px] rounded-full  w-[200px] self-center my-[25px] "></hr>
           <ul className=" flex flex-col gap-[15px] ">
-            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-400 ">
+            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-600 ">
               <span>
                 <svg
                   className=" w-[15px] h-[15px] "
@@ -596,7 +596,7 @@ export default function SectionThree() {
               </span>
               <span className=" capitalize "> unique UI/UX designs</span>
             </li>
-            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-400 ">
+            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-600 ">
               <span>
                 <svg
                   className=" w-[15px] h-[15px] "
@@ -648,7 +648,7 @@ export default function SectionThree() {
                 technical SEO / Test and check{" "}
               </span>
             </li>
-            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-400 ">
+            <li className=" flex flex-row justify-start items-center gap-[15px] text-gray-600 ">
               <span>
                 <svg
                   className=" w-[15px] h-[15px] "

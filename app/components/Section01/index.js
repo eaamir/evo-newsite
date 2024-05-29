@@ -220,7 +220,7 @@ export default function SectionOne() {
             });
           }}
           href="#"
-          className=" mt-[25px] cursor-fancy lg:mt-0 bg-orange-700 p-[10px] lg:w-[175px] lg:h-[250px] flex flex-col justify-between rounded-3xl text-black border-[5px] border-orange-700 hover:border-white hover:text-white hover:bg-black transition gap-[25px] lg:gap-0 "
+          className=" mt-[25px] cursor-fancy lg:mt-0 bg-orange-500 p-[10px] lg:w-[175px] lg:h-[250px] flex flex-col justify-between rounded-3xl text-white border-[5px] border-orange-500 hover:border-orange-500 hover:text-orange-500 hover:bg-opacity-0 transition gap-[25px] lg:gap-0 "
         >
           <div>
             <p className="font-bold text-[23px] ">Let's make a Design</p>

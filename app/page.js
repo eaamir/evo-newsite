@@ -117,7 +117,19 @@ export default function Home() {
           </div>
         </div>
       ) : (
-        <main className=" min-h-screen ">
+        <main className=" min-h-screen relative ">
+          <video
+            autoPlay
+            loop
+            muted
+            disableremoteplayback
+            playsinline
+            class=" fixed z-[-1] lg:absolute left-0 bottom-0 min-w-full min-h-full w-auto max-w-none"
+          >
+            <source src="bkg.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+
           <Header />
           <SectionOne />
           <SectionTwo />

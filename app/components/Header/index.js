@@ -91,7 +91,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState("hidden");
 
   return (
-    <header className="flex flex-row justify-between lg:px-[75px] align-middle z-50 sticky lg:static top-0 bg-black ">
+    <header className="flex flex-row justify-between lg:px-[75px] align-middle z-50 sticky top-0 ">
       <div className=" flex-col items-start justify-center w-[33%] hidden lg:flex ">
         <Link
           onMouseEnter={() => {
@@ -257,7 +257,7 @@ export default function Header() {
 
         <div
           style={{ visibility: `${isOpen}` }}
-          className=" absolute w-screen h-screen top-0 left-0 bg-black bg-opacity-95 "
+          className=" absolute w-screen h-screen top-0 left-0 bg-blue-200 bg-opacity-95 "
         >
           <div className=" w-full h-full flex flex-col justify-center items-center p-[50px] gap-[50px] ">
             <Link
@@ -328,7 +328,7 @@ export default function Header() {
                   telegram
                 </Link>
               </li>
-              <li className=" text-[25px] " >
+              <li className=" text-[25px] ">
                 <Link target="_blank" href="mailto:hello@theevostudio.com">
                   hello@theevostudio.com
                 </Link>
